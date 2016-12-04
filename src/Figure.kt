@@ -8,8 +8,8 @@ import org.json.JSONObject
 import java.awt.Color
 
 open class Figure {
-    var x : Int = 0
-    var y : Int = 0
+    open var x : Int = 0
+    open var y : Int = 0
     var borderColor : Color = Color.white
     var fillColor : Color = Color.white
 
