@@ -9,7 +9,7 @@ import org.json.JSONObject
 import java.io.StringWriter
 import java.util.*
 
-class VisualGenerator {
+open class VisualGenerator {
     val eventMap : HashMap<Long, MutableList<Event>> = HashMap()
 
     fun addEvent(tick : Long, event : Event){
